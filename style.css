@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**************************************************
+    GALERIA - PAG1
+**************************************************/
+.item {
+    margin-bottom: 2%;
+    
+}
+.row .item:hover img {
+    filter: brightness(85%);
+    transform: scale(1.03);
+    transition: .2s ease-in-out;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.446);*/
+}
+.img-style {
+    /*border-radius: 10px;*/
+}
+
+/**************************************************/
+
+/**************************************************
+    SOBRE - PAG2
+**************************************************/
+.img-sobre-mim { 
+margin-top: 7%; 
+margin-bottom: 5%; 
+
+max-height: 370%;
+max-width: 300%;
+}
+.img-sobre-mim {
+border-radius: 5px;
+}
+.txt-sobre-mim {
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 2%; 
+text-align: justify;
+letter-spacing: 1.1px; 
+word-spacing: 4.5px;
+line-height: 30px;
+}
+@media (max-width: 700px) {
+    .img-sobre-mim {
+    margin-top: 2%;
+    width: 270px;
+    }  
+}
+@media (max-width: 750px) {
+    .img-sobre-mim {
+    margin-top: 10%;
+    width: 170px;    
+    }  
+}
+
+/**************************************************/
+
+/**************************************************
+    ENCOMENDAR - PAG3
+**************************************************/
+.text-encomendar-top {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%; 
+margin-bottom: 2%;
+text-align: center;
+letter-spacing: 1px; 
+word-spacing: 2px;
+line-height: 25px;
+font-size: 17px;
+}
+.text-encomendar-bottom {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%; 
+text-align: center;
+letter-spacing: 1px; 
+word-spacing: 2px;
+line-height: 25px;
+font-size: 17px;
+}
+a.encomendar {
+    color: blueviolet;
+}
+
+/**************************************************/
+
+/**************************************************
+    CONTATO - PAG4
+**************************************************/
+.text-contato-top {
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 2%; 
+margin-bottom: 2%;
+text-align: center;
+letter-spacing: 1px; 
+word-spacing: 2px;
+line-height: 25px;
+font-size: 17px;
+}
+@media (max-width: 500px) {
+    .text-contato-top {
+    margin-left: 10%;
+    margin-right: 10%;    
+    }  
+}
+/**************************************************/
